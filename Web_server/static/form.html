@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./styles/global.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write you data</title>
+</head>
+<body>
+    <div class="content-container">
+        <header class="content-container_header">
+            <h1 class="header_title">Welcome to the Form Page!</h1>
+        </header>
+        <main class="content-container_main">
+            <form action="/saved_data" method="POST" class="main_form">
+                <input type="text" placeholder="Name" name = 'name'>
+                <input type="number" placeholder="age" name = 'age'>
+                <button class="form_save-user-data-button" type="submit">Save data</button>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

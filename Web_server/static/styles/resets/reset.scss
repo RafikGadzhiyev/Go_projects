@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body,
+html {
+    width: 100%;
+    min-height: 100vh;
+    font-size: 20px;
+    box-sizing: border-box;
+    background-image: linear-gradient(to top right, rgb(0, 89, 157), rgb(0, 255, 191))
+}
+
+button,
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+input {
+    all: unset;
+    padding: .5rem
+}

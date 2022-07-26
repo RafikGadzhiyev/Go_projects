@@ -1,0 +1,86 @@
+.content-container {
+  width: 1500px;
+  min-height: 100vh;
+  background-color: purple;
+  color: white;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.content-container_header {
+  margin-bottom: 1rem;
+}
+
+.header_title {
+  text-align: center;
+}
+
+.content-container_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.5rem;
+}
+
+.main_go-to-form-button {
+  border: 1.5px solid #63ff6e;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+  padding: .5rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+.main_go-to-form-button:hover {
+  background-color: #63ff6e;
+  color: black;
+}
+
+.main_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.main_form > input {
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+}
+
+.main_form > input:hover {
+  background-color: white;
+  color: black;
+}
+
+.form_save-user-data-button {
+  border: 1.5px solid #63ff6e;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+  padding: .5rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+.form_save-user-data-button:hover {
+  background-color: #63ff6e;
+  color: black;
+}
+/*# sourceMappingURL=form.css.map */
